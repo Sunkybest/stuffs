@@ -1,0 +1,100 @@
+body {
+    background-color: #DA74EF;
+}
+.mylogo {
+    width: 80px;
+    height: 70px;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+.log {
+    border-width: 10px;
+    border-bottom: 5px;
+    border-bottom-color: rgb(247, 30, 164);
+    border-top: 10px;
+    border-top-color: rgb(247, 30, 164);
+    border-right: 10px;
+    border-style: solid;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.extend {
+    display: flex;
+}
+.rollout {
+    marquee-loop: 2;
+}
+
+header {
+    height: 90px;
+    background-color: navy;
+    color: aliceblue;
+}
+.logo {
+    float: left;
+}
+
+.navs {
+    float: right;
+    padding-right: 70px;
+    padding-top: 20px;
+}
+nav{
+    padding: 10px;
+    display: flex;
+}
+nav a {
+    padding-right: 15px;
+    color: #DA74EF;
+    font-size: larger;
+}
+.mytable {
+    margin-top: 20px;
+}
+table {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #e23e46;
+    border-collapse: separate;
+    caption-side: bottom;
+    table-layout: auto;
+}
+
+
+.child1 {
+    width: 30%;
+    height: 150px;
+    border: 10px solid lightgreen;
+    float: left;
+}
+
+.child2 {
+    width: 30%;
+    height: 150px;
+    border: 10px groove hotpink;
+    float: right;
+}
+
+.correctguy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.prince {
+    width: 600px;
+    height: 150px;
+    border: 10px double rgb(122, 195, 230);
+}
+.cinder {
+    width: 600px;
+    height: 150px;
+    border: 10px double rgb(122, 195, 230);
+}
+.moanna {
+    width: 600px;
+    height: 150px;
+    border: 10px double rgb(122, 195, 230);
+}
